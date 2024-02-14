@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Organized Lawyer</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gradient-to-br from-zinc-800 to-zinc-950 h-screen ">
+<body class="bg-gradient-to-br from-zinc-800 to-zinc-950 h-screen">
 
   <div>
     <h1 class="text-4xl text-center text-white underline decoration-amber-500 decoration-3 font-semibold p-10"
       style="font-family: 'montserrat';">Organized Lawyer</h1>
   </div>
-  <div class="flex flex-col justify-center items-center w-1/5 bg-gradient-to-tr from-yellow-200 to-yellow-500 mx-auto my-auto rounded-2xl">
-    <input type="text" class=" min-w-8 max-w-36 mt-5" placeholder="Usuário" id="usuario">
-    <input type="text" class=" min-w-8 max-w-36 my-5" placeholder="Senha" id="senha">
+
+
+  <div class="flex flex-col justify-center items-center m-auto rounded-2xl min-w-32">
+
+    <p class="text-white font-sans mt-5 font-bold">Insira seu usuário e sua senha</p>
+
+    <input type="text" class=" min-w-8 max-w-36 mt-5 rounded-md bg-gray-300 placeholder-zinc-600 pl-1 py-0.5 focus:bg-gray-100 shadow-md shadow-gray-100/30" placeholder="Usuário" id="usuario">
+
+    <input type="text" class=" min-w-8 max-w-36 my-5 rounded-md bg-gray-300 placeholder-zinc-600 pl-1 py-0.5 focus:bg-gray-100 shadow-md shadow-gray-100/30" placeholder="Senha" id="senha">
+
+    <button class="bg-white p-1 px-3 rounded-md font-sans font-semibold shadow-md shadow-gray-100/30">Logar</button>
 
   </div>
 
